@@ -153,3 +153,4 @@ cython_debug/
 
 rcon.exe
 rcon
+config.json

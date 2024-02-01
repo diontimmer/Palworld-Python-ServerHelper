@@ -43,9 +43,12 @@ class PalworldRconServer:
 
     def broadcast(self, message):
         message = message.replace(" ", "_")
-        os.system(
-            f"{self.rcon_exec} -a {self.ip}:{self.port} -p {self.password} 'Broadcast {message}'"
-        )
+        if os.name == "posix":
+            msg = f"'Broadcast {message}'"
+        else:
+            msg = f'"Broadcast {message}"'
+        cmd = f"{self.rcon_exec} -a {self.ip}:{self.port} -p {self.password} {msg}"
+        os.system(cmd)
 
     def get_players(self):
         output = self._run_command(["showplayers"]).split("\n")[1:-1]
