@@ -2,7 +2,7 @@
 
 A basic Python wrapper for RCON, designed to facilitate server management for PalWorld servers. It offers preliminary support for player join/leave messages, albeit with some limitations. This tool is intended as a temporary solution until a more robust system is developed.
 
-[img](https://www.dropbox.com/scl/fi/97usicmyf6owz5exczbxj/palhelper.png?rlkey=3w7t30q47sx7bh5zr0ovzrdy2&dl=1)
+![img](https://www.dropbox.com/scl/fi/97usicmyf6owz5exczbxj/palhelper.png?rlkey=3w7t30q47sx7bh5zr0ovzrdy2&raw=1)
 
 ## Features
 
