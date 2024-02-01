@@ -13,8 +13,8 @@ A basic Python wrapper for RCON, designed to facilitate server management for Pa
 ## Prerequisites
 
 - Python 3.10 or newer installed and available in your system's PATH
-    Your PalWorld server configured to accept RCON commands (RCON port open and enabled in the server's configuration)
-    rcon-cli downloaded and accessible
+- Your PalWorld server configured to accept RCON commands (RCON port open and enabled in the server's configuration)
+- rcon-cli downloaded and accessible
 
 ## Installation
 
